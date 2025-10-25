@@ -261,7 +261,7 @@ const Index = () => {
                       </Select>
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="details">Дополнительная информация</Label>
+                      <Label htmlFor="details"></Label>
                       <Textarea
                         id="details"
                         placeholder="Опишите ситуацию: повреждения, особые условия и т.д."
