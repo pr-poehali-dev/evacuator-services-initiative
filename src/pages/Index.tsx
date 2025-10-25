@@ -205,13 +205,13 @@ const Index = () => {
 
               <Card className="animate-scale-in border-2">
                 <CardHeader>
-                  <CardTitle className="text-2xl">Заявка на эвакуацию</CardTitle>
+                  <CardTitle className="text-2xl"></CardTitle>
                   <CardDescription>Все поля обязательны для заполнения</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div className="space-y-2">
-                      <Label htmlFor="name">Ваше имя</Label>
+                      <Label htmlFor="name"></Label>
                       <Input
                         id="name"
                         placeholder="Иван Иванов"
@@ -270,10 +270,7 @@ const Index = () => {
                         rows={3}
                       />
                     </div>
-                    <Button type="submit" className="w-full bg-secondary hover:bg-secondary/90 text-lg py-6 h-auto">
-                      <Icon name="Send" className="mr-2" size={20} />
-                      Отправить заявку
-                    </Button>
+                    <Button type="submit" className="w-full bg-secondary hover:bg-secondary/90 text-lg py-6 h-auto"></Button>
                     <p className="text-xs text-center text-muted-foreground">
                       Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
                     </p>
