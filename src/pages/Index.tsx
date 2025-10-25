@@ -221,7 +221,7 @@ const Index = () => {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Телефон</Label>
+                      <Label htmlFor="phone"></Label>
                       <Input
                         id="phone"
                         type="tel"
@@ -232,7 +232,7 @@ const Index = () => {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="address">Адрес подачи эвакуатора</Label>
+                      <Label htmlFor="address"></Label>
                       <Input
                         id="address"
                         placeholder="ул. Ленина, 1"
@@ -242,7 +242,7 @@ const Index = () => {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="vehicleType">Тип транспорта</Label>
+                      <Label htmlFor="vehicleType"></Label>
                       <Select 
                         value={formData.vehicleType}
                         onValueChange={(value) => setFormData({ ...formData, vehicleType: value })}
